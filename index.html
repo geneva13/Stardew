@@ -38,7 +38,7 @@
     }
     section {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
     h2 {
@@ -47,10 +47,23 @@
     ul {
       padding-left: 1.5rem;
     }
-    .cheat-sheet {
+    .box {
       background: #e0e0e0;
       padding: 1rem;
       border-radius: 5px;
+      margin-bottom: 2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    th, td {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+    }
+    th {
+      background-color: #cce3dc;
     }
   </style>
 </head>
@@ -61,29 +74,64 @@
   </header>
 
   <nav>
+    <a href="#dailies">Daily Tasks</a>
     <a href="#tips">Tips</a>
-    <a href="#crops">Crops</a>
+    <a href="#products">Products</a>
     <a href="#gifts">Gifts</a>
-    <a href="#tools">Tools</a>
-    <a href="#controls">Controls</a>
+    <a href="#skills">Skills</a>
   </nav>
+
+  <section id="dailies">
+    <h2>Daily Tasks</h2>
+    <div class="box">
+      <ul>
+        <li>Check the TV (weather, fortune, and recipes)</li>
+        <li>Water crops (unless it’s raining or sprinklers are set)</li>
+        <li>Pet animals and harvest animal products</li>
+        <li>Collect artisan goods (cheese, wine, jam)</li>
+        <li>Clear debris/rocks/wood if needed</li>
+        <li>Visit villagers and give gifts (check birthdays!)</li>
+        <li>Check the calendar and quests on the board</li>
+        <li>Refill machines (preserves jar, kegs, furnaces)</li>
+        <li>Visit Pierre’s/shop/Clint/etc. before 5 PM</li>
+        <li>Forage around town and mines</li>
+        <li>Dump energy before bed—fishing, chopping, mining!</li>
+      </ul>
+    </div>
+  </section>
 
   <section id="tips">
     <h2>Quick Tips</h2>
     <ul>
-      <li>Always check the TV every morning (weather, fortune, and recipes!).</li>
-      <li>Pet your animals and close the barn doors at night.</li>
-      <li>Plant crops in 3x3 for sprinklers later on.</li>
-      <li>Upgrade watering can just before rainy day.</li>
+      <li>Plan ahead for seasonal crops and tool upgrades</li>
+      <li>Save gold-quality crops for bundles or quests</li>
+      <li>Use staircases to speed through the Skull Cavern</li>
+      <li>Use rain to your advantage for fishing or upgrading</li>
     </ul>
   </section>
 
-  <section id="crops">
-    <h2>Best Crops by Season</h2>
+  <section id="products">
+    <h2>Best Products by Season (with Base Prices)</h2>
+    <h3>Spring</h3>
     <ul>
-      <li><strong>Spring:</strong> Strawberries, Cauliflower, Potatoes</li>
-      <li><strong>Summer:</strong> Blueberries, Starfruit, Melons</li>
-      <li><strong>Fall:</strong> Cranberries, Pumpkins, Sweet Gem Berries</li>
+      <li><strong>Strawberries (120g)</strong> – Buy during Egg Festival</li>
+      <li><strong>Potatoes (80g)</strong> – Chance for multiple harvests</li>
+      <li><strong>Catfish (200g)</strong> – Rainy days in rivers</li>
+      <li><strong>Wild Horseradish (50g)</strong> – Forage</li>
+    </ul>
+    <h3>Summer</h3>
+    <ul>
+      <li><strong>Blueberries (50g/each berry)</strong> – Multi-harvest king</li>
+      <li><strong>Melons (250g)</strong> – High value, great for gifts too</li>
+      <li><strong>Pike (100g)</strong> – Common in rivers</li>
+      <li><strong>Spice Berry (80g)</strong> – Great forage find</li>
+    </ul>
+    <h3>Fall</h3>
+    <ul>
+      <li><strong>Cranberries (75g/berry)</strong> – Profitable multi-yield</li>
+      <li><strong>Pumpkins (320g)</strong> – Great for gifting and bundles</li>
+      <li><strong>Salmon (75g)</strong> – River fish</li>
+      <li><strong>Common Mushroom (40g)</strong> – Easy forage</li>
     </ul>
   </section>
 
@@ -91,31 +139,78 @@
     <h2>Villager Gift Favorites</h2>
     <ul>
       <li><strong>Abigail:</strong> Amethyst, Pumpkin</li>
-      <li><strong>Leah:</strong> Salad, Goat Cheese</li>
+      <li><strong>Alex:</strong> Salmon Dinner, Complete Breakfast</li>
+      <li><strong>Caroline:</strong> Fish Taco, Green Tea</li>
+      <li><strong>Clint:</strong> Amethyst, Topaz</li>
+      <li><strong>Demetrius:</strong> Bean Hotpot, Ice Cream</li>
+      <li><strong>Dwarf:</strong> Amethyst, Jade</li>
+      <li><strong>Emily:</strong> Cloth, Wool</li>
+      <li><strong>Evelyn:</strong> Diamond, Tulip</li>
+      <li><strong>George:</strong> Leek, Fried Mushroom</li>
+      <li><strong>Gus:</strong> Diamond, Orange</li>
+      <li><strong>Haley:</strong> Coconut, Sunflower</li>
+      <li><strong>Harvey:</strong> Coffee, Pickles</li>
+      <li><strong>Jas:</strong> Fairy Rose, Pink Cake</li>
+      <li><strong>Jodi:</strong> Diamond, Chocolate Cake</li>
+      <li><strong>Kent:</strong> Fiddlehead Risotto, Roasted Hazelnuts</li>
+      <li><strong>Krobus:</strong> Pumpkin, Void Egg</li>
+      <li><strong>Leo:</strong> Mango, Duck Feather</li>
+      <li><strong>Leah:</strong> Goat Cheese, Salad</li>
+      <li><strong>Lewis:</strong> Glazed Yams, Autumn’s Bounty</li>
       <li><strong>Linus:</strong> Cactus Fruit, Coconut</li>
-      <li><strong>Sebastian:</strong> Frozen Tear, Sashimi</li>
+      <li><strong>Maru:</strong> Battery Pack, Cauliflower</li>
+      <li><strong>Marnie:</strong> Diamond, Pink Cake</li>
+      <li><strong>Pam:</strong> Parsnip Soup, Beer</li>
+      <li><strong>Penny:</strong> Emerald, Poppy</li>
+      <li><strong>Pierre:</strong> Fried Calamari</li>
+      <li><strong>Robin:</strong> Spaghetti, Goat Cheese</li>
+      <li><strong>Sam:</strong> Cactus Fruit, Pizza</li>
+      <li><strong>Sandy:</strong> Crocus, Sweet Pea</li>
+      <li><strong>Sebastian:</strong> Frozen Tear, Obsidian</li>
+      <li><strong>Shane:</strong> Beer, Pepper Poppers</li>
+      <li><strong>Vincent:</strong> Snail, Grape</li>
+      <li><strong>Willy:</strong> Catfish, Diamond</li>
+      <li><strong>Wizard:</strong> Void Essence, Solar Essence</li>
     </ul>
   </section>
 
-  <section id="tools">
-    <h2>Tool Upgrade Order</h2>
-    <ol>
-      <li>Copper Pickaxe</li>
-      <li>Copper Axe</li>
-      <li>Steel Pickaxe</li>
-      <li>Steel Axe</li>
-      <li>Upgrade Watering Can before rainy day</li>
-    </ol>
-  </section>
+  <section id="skills">
+    <h2>Skill Bonuses by Level</h2>
+    <div class="box">
+      <h3>Farming</h3>
+      <ul>
+        <li>+1 Watering Can & Hoe proficiency per level</li>
+        <li>Lvl 5: Rancher (+20% animal) or Tiller (+10% crops)</li>
+        <li>Lvl 10: Artisan goods worth 40% more (Artisan!)</li>
+      </ul>
 
-  <section id="controls">
-    <h2>Controls Cheat Sheet (PC)</h2>
-    <div class="cheat-sheet">
-      <p><strong>WASD:</strong> Move</p>
-      <p><strong>Left Click:</strong> Use tool</p>
-      <p><strong>Right Click:</strong> Check / interact</p>
-      <p><strong>1-0:</strong> Toolbelt hotkeys</p>
-      <p><strong>ESC:</strong> Open menu</p>
+      <h3>Mining</h3>
+      <ul>
+        <li>+1 Pickaxe proficiency per level</li>
+        <li>Lvl 5: Miner (+1 ore per vein) or Geologist (gem chance)</li>
+        <li>Lvl 10: Excavator (double geodes!) or Prospector (coal)</li>
+      </ul>
+
+      <h3>Fishing</h3>
+      <ul>
+        <li>+1 Fishing Rod proficiency per level</li>
+        <li>Lvl 5: Fisher (+25% fish price) or Trapper (cheaper traps)</li>
+        <li>Lvl 10: Angler (+50% fish price!) or Pirate (double treasures)</li>
+      </ul>
+
+      <h3>Foraging</h3>
+      <ul>
+        <li>+1 Axe proficiency per level</li>
+        <li>Lvl 5: Forester (+25% wood) or Gatherer (+20% double forage)</li>
+        <li>Lvl 10: Botanist (always highest quality forage!)</li>
+      </ul>
+
+      <h3>Combat</h3>
+      <ul>
+        <li>+HP and weapon proficiency per level</li>
+        <li>Lvl 5: Fighter (+10% damage) or Scout (+critical strike chance)</li>
+        <li>Lvl 10: Brute (+15% damage) or Acrobat (special move cooldowns)</li>
+      </ul>
     </div>
   </section>
 </body>
